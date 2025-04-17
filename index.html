@@ -18,10 +18,31 @@
     .cta-btn:hover { background-color: #946970; }
 
     .container { max-width: 1100px; margin: 2rem auto; padding: 1rem; }
-    section { margin-bottom: 3rem; }
+    section { margin-bottom: 3rem; text-align: center; }
     h2 { font-size: 2rem; color: #b5838d; margin-bottom: 1rem; }
-    ul { padding-left: 1.5rem; }
+    ul { padding-left: 1.5rem; text-align: left; display: inline-block; }
     li { margin-bottom: 0.5rem; }
+    .banner {
+      width: 100%;
+      height: auto;
+      margin: 2rem 0;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.08);
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    .gallery img {
+      width: 200px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
 
     .form-section {
       background-color: #fff0f5;
@@ -46,6 +67,29 @@
 
   <div class="container">
     <section>
+      <h2>Uma mentoria que vai com você até os EUA</h2>
+      <p>Você não está sozinha nessa jornada! Essa mentoria te acompanha desde o início do processo até você pisar em solo americano — e até mesmo depois disso. 💬✈️</p>
+      <p><strong>Você pode contar comigo em cada etapa!</strong></p>
+      <p style="margin-top: 1.5rem; font-size: 1.4rem; font-weight: bold;">Você está preparada?</p>
+    </section>
+
+    <section>
+      <h2>Conecte-se com uma comunidade de Au Pairs</h2>
+      <p>Além do conteúdo, você terá acesso a <strong>aulas ao vivo</strong> com outras meninas que também estão vivendo esse sonho. Vamos crescer juntas, trocar experiências e nos apoiar nessa jornada!</p>
+    </section>
+
+    <section>
+      <h2>Já vivi isso — e você também pode!</h2>
+      <p>Essas são algumas fotos da minha experiência como au pair nos Estados Unidos. Foi uma fase incrível da minha vida e eu posso te ajudar a viver isso também!</p>
+      <div class="gallery">
+        <img src="foto1.jpg" alt="Gabriela nos EUA 1">
+        <img src="foto2.jpg" alt="Gabriela nos EUA 2">
+        <img src="foto3.jpg" alt="Gabriela nos EUA 3">
+        <img src="foto4.jpg" alt="Gabriela nos EUA 4">
+      </div>
+    </section>
+
+    <section>
       <h2>Para quem é este curso?</h2>
       <ul>
         <li>Tem entre 18 e 26 anos e sonha em morar nos EUA</li>
@@ -56,26 +100,12 @@
     </section>
 
     <section>
-      <h2>Conecte-se com uma comunidade de Au Pairs</h2>
-      <p>Além do conteúdo, você terá acesso a aulas ao vivo com outras meninas que também estão vivendo esse sonho. Vamos crescer juntas, trocar experiências e nos apoiar nessa jornada!</p>
-    </section>
-
-    <section>
       <h2>O que você vai aprender</h2>
       <ul>
         <li>Inglês prático desde o zero</li>
         <li>Entrevista com agência e host family</li>
         <li>Como montar um perfil campeão</li>
         <li>Dicas culturais e preparação emocional</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Planos e Preços</h2>
-      <ul>
-        <li><strong>Starter - R$ 1.499:</strong> Aulas gravadas e PDFs</li>
-        <li><strong>Guided - R$ 1.899:</strong> + Mentorias em grupo</li>
-        <li><strong>Pro - R$ 2.199:</strong> + Comunidade exclusiva + bônus extras</li>
       </ul>
     </section>
 
